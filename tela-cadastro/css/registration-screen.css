@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: rgb(100, 98, 98);
+}
+
+body {
+    background-color: rgb(232, 235, 228);
+    text-transform: uppercase;
+  }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(219, 225, 205);
+    margin-bottom: 8vh;
+  }
+  
+.menu-logo {
+    margin: 15px;
+    text-decoration: none;
+    margin-left: 1%;
+    font-size: 30px;
+    color: rgb(115, 114, 114);
+    text-shadow: 0px 1px 1px rgb(115, 114, 114);
+}
+
+
+  .main-container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(197, 216, 142);
+    padding: 25px;
+}
+
+.main-container h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: rgb(115, 114, 114);
+}
+
+
+input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+
+a {
+  color: rgb(22, 123, 206);
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+    
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+
+input {
+    background-color: #d4e5f2;
+    border-bottom: 1px solid rgb(115, 114, 114);
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+input:focus {
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #b5d9f6;
+}
+
+input[type="submit"] {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(91, 87, 87);
+    text-shadow: 0px 1px 1px rgb(115, 114, 114);
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+
+
+.baseboard{
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    background: #b5d9f6;
+    line-height: 80px;
+    margin-top: 30px;
+}
+
+
+

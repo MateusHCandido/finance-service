@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registration-screen.css">
+    <title>Sign up</title>
+
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <a class="menu-logo" href="../index.html">Mttzz</a>
+
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <h1>Take your first steps towards financial management</h1>
+        <form class="register-form">
+            <div class="half-box spacing">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" >
+            </div>
+            <div class="half-box">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" >
+            </div>
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+
+            </div>
+            <div class="full-box">
+                <label for="phoneNumber">Phone</label>
+                <input type="text" name="phoneNumber" id="phoneNumber">
+            </div>
+            <div class="full-box">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" >
+            </div>
+            <div class="half-box spacing">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="">
+            </div>
+            <div class="half-box">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" >
+            </div>
+            
+            <div>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement">I have read and accept the <a href="#">terms of user</a></label>
+            </div>
+            <div class="full-box">
+                <input type="submit" id="submit" value="register">
+            </div>
+        </form>
+    </div>
+    
+    <div class="baseboard">
+        <footer>
+            <p> &copy; 2023 MttzzFinances, corp.</p>
+        </footer>
+    </div>
+    <p class="error validation template"></p>
+    <script> src="js/validations.js"</script>
+
+    
+</body>
+</html>
